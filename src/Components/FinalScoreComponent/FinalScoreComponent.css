@@ -1,0 +1,42 @@
+.center{
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    font-size: 43px;
+}
+
+.play-again-button{  
+    background: transparent;
+    border: 0px;
+    color: var(--color-primary);
+    font-size: 35px;
+    outline: none;    
+    cursor: pointer;
+}
+.quit-button{
+    bottom: 16px;
+    left: 43px;
+    font-size: 25px;
+    position: absolute;
+    cursor: pointer;
+}
+.new-high-score{
+    font-size: 21px;
+}
+
+.play-again{
+    margin-top: 20px;
+}
+.game-score{
+    font-size: 33px;
+}
+.game-time{
+    font-size: 47px;
+}
+.refresh-icon{
+    font-size: 43px;
+    position: absolute;
+    left: -11px;
+    bottom: 1px;
+}

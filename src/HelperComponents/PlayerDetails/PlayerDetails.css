@@ -1,0 +1,26 @@
+.top-left{
+    display: flex;
+    text-align: left;
+    flex: 1;
+    flex-direction: column;
+}
+.person-name{
+    margin: 5px;
+    font-size: 35px;
+    margin-left:24px;
+}
+.person{
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+}
+.difficulty{    
+    margin: 5px;
+    font-size: 35px;
+    margin-left: 24px;
+}
+.game-pad{
+    position: relative;
+    top: 6px;
+    margin-right: 10px;
+}
