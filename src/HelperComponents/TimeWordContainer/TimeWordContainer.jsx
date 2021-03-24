@@ -33,16 +33,14 @@ export default function TimeWordContainer({ setIsGameOver }) {
 
     useEffect(() => {
         setRandomWord(wordsList[Math.floor(Math.random() * wordsList.length)]);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    },[]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
 
     return (<div className="timer-container">
         <div className="timer">
             <Timer randomWord={randomWord} setIsGameOver={setIsGameOver} />
         </div>
-        <div className="words">
-            <Preview randomWord={randomWord} handleRandomWords={handleRandomWords} />
-        </div>
+        <Preview randomWord={randomWord} handleRandomWords={handleRandomWords} />
     </div>)
 }

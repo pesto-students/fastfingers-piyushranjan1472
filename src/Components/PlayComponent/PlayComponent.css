@@ -21,6 +21,7 @@
     width: fit-content;
 }
 .stop-button{
+    font-family: ArcadeClassic;
     background: transparent;
     border: 0px;
     color: var(--color-primary);

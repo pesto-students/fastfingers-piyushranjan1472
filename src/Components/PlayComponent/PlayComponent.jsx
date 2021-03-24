@@ -4,8 +4,8 @@ import './PlayComponent.css'
 import TimeWordContainer from '../../HelperComponents/TimeWordContainer/TimeWordContainer';
 import CurrentScore from '../../HelperComponents/CurrentScore/CurrentScore';
 import ScoreBoard from '../../HelperComponents/ScoreBoard/ScoreBoard';
-import { ImCross } from "react-icons/im";
 import FinalScoreComponent from "../FinalScoreComponent/FinalScoreComponent";
+import { GiCrossedSabres } from "react-icons/gi";
 
 export default function PlayComponent({ setIsLoggedIn }) {
 
@@ -24,7 +24,7 @@ export default function PlayComponent({ setIsLoggedIn }) {
     }
 
     const stopGameHandler = () => {
-        setIsLoggedIn(false);
+        setIsGameOver(true);
     }
 
     return (<div className="play-container">
@@ -38,7 +38,7 @@ export default function PlayComponent({ setIsLoggedIn }) {
         </div>
         <div className="stop-game">
             <button className="stop-button" onClick={stopGameHandler}>
-                <ImCross className="close" />STOP GAME
+                <GiCrossedSabres className="close" />STOP GAME
             </button>
         </div>
 

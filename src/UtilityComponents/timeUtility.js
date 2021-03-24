@@ -28,3 +28,17 @@ export function convertToMinutes(time) {
     const seconds = Math.floor(time % 60)
     return `${pad(minutes)} : ${pad(seconds)}`;
 }
+
+export function formatCountdownTime(time){
+    let seconds = Math.floor(time / 1000);
+    let millisec = (Math.floor(time % 1000) / 10).toFixed(0);
+
+    if (millisec < 10) {
+        millisec = `0${millisec}`;
+    }
+    if (seconds < 10) {
+        seconds = `0${seconds}`;
+    }
+
+    return `${seconds}:${millisec}`;
+}

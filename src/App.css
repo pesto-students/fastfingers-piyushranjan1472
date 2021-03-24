@@ -9,8 +9,11 @@ html {
   box-sizing: border-box;
 }
 .App-container {
+  height: 100vh;
   text-align: center;
-  background-image: url(./images/background.png);
+  background-image: url(./images/Group243.png),linear-gradient(black,var(--color-secondary));
+  background-blend-mode: multiply;
+  
   background-size: cover;
 }
 .App{

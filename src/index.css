@@ -1,8 +1,26 @@
+@font-face {
+  font-family: "LaserCorpsGrad";
+  src: local("LaserCorpsGrad"),
+    url("./Fonts/lasercorpsgrad.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ArcadeClassic";
+  src: local("ArcadeClassic"),
+    url("./Fonts/ARCADECLASSIC.TTF") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "GothamMedium";
+  src: local("GothamMedium"),
+    url("./Fonts/Gotham-Medium.otf") format("opentype");
+  font-weight: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: ArcadeClassic,LaserCorpsGrad,GothamMedium,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -5,3 +5,11 @@
     margin-right: 27px;
     align-items: flex-start;
 }
+.timer-blink{
+    animation: blinker 1s linear infinite ;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

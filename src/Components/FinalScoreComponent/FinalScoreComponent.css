@@ -7,6 +7,7 @@
 }
 
 .play-again-button{  
+    font-family: 'ArcadeClassic';
     background: transparent;
     border: 0px;
     color: var(--color-primary);
@@ -27,6 +28,7 @@
 
 .play-again{
     margin-top: 20px;
+    margin-left: 17px;
 }
 .game-score{
     font-size: 33px;
@@ -35,8 +37,8 @@
     font-size: 47px;
 }
 .refresh-icon{
-    font-size: 43px;
+    font-size: 38px;
     position: absolute;
-    left: -11px;
-    bottom: 1px;
+    left: -18px;
+    bottom: 0px;
 }
