@@ -1,0 +1,38 @@
+.play-container{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 30%;
+    display: flex;
+    margin-top: 18px;
+}
+
+.main-content{
+    height: 60%;
+    display: flex;
+}
+
+.stop-game{
+    text-align: left;
+    margin: 11px 19px;
+    width: fit-content;
+}
+.stop-button{
+    font-family: ArcadeClassic;
+    background: transparent;
+    border: 0px;
+    color: var(--color-primary);
+    font-size: 26px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.close{
+    padding-top: 6px;
+    font-size: 25px;
+    margin-right: 3px;
+}

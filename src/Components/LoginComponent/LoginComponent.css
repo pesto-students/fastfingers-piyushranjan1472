@@ -1,0 +1,84 @@
+.login-page {
+    text-align: center;
+    padding: 0% 33%;
+  }
+  .keyboard-icon {
+    color: var(--color-primary);
+    /* size: 30px; */
+    width: 212px;
+    height: 134px;
+    opacity: 0.64;
+    margin-top: 15px;
+  }
+  .heading{
+    /* line-height: 1.2; */
+    font-family: LaserCorpsGrad;
+    font-size: 60px;
+  }
+
+  .description {
+    position: relative;
+    text-align: center;
+    border-bottom: 2px solid var(--color-primary);
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+ } 
+ 
+ .description span { 
+     background:#0c1a1f;
+     padding:0 10px; 
+ }
+ .form{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .input-field{
+  margin-top: 16px;
+  position: relative;
+ }
+
+ .dropdown-input{
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 27px;
+  opacity: 0.59;
+  border-radius: 9px;
+  box-shadow: 0 3px 16px 0 rgb(0 0 0 / 80%);
+  background-color: #505c60;
+  margin: 20px 6px;
+  outline: none;
+  cursor: pointer;
+ }
+ .button{   
+   font-family: ArcadeClassic;
+  background-color: transparent;
+  border: 0px;
+  font-size: 25px;
+  color: var(--color-primary);
+  cursor:pointer;
+  outline: none;
+  animation: blinker 1s linear infinite;
+ }
+ @keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+ .play-button{
+   margin-right:10px;
+   padding-top: 5px;
+
+ }
+ .button-container{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+ }
+ .field-error{
+  text-align: left;
+  position: absolute;
+  left: 17px;
+  bottom: 2px;
+ }
+
+
