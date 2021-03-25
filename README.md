@@ -1,4 +1,4 @@
-## Project Deployed on (Netlify Link): https://vigilant-meitner-22e3dc.netlify.app
+## Project Deployed on (Netlify Link): https://fast-finger-piyush.netlify.app/
 
 # Fast Fingers
 
